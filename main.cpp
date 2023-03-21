@@ -28,6 +28,8 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
+    // Nguyen Hoang Trung
+
     int b[MAX_ARRAY] = {0, 2, 1, 4, 3, 6, 5, 8, 7, 9};
     sort(b, b+MAX_ARRAY, compare);
 
