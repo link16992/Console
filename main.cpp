@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     sort(b, b+MAX_ARRAY, compare);
 
     for(int i = 0; i < MAX_ARRAY; i++){
-        printf("%d \n", b[i]);
+        printf("%d sbc \n", b[i]);
     }
 
     update_array(b);
